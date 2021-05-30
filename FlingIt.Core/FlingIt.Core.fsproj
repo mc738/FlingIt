@@ -3,6 +3,9 @@
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <PackageVersion>0.1.0</PackageVersion>
+        <PackageProjectUrl>https://github.com/mc738/FlingIt</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/mc738/FlingIt</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
@@ -12,10 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\FLite\FLite.Core\FLite.Core.fsproj" />
-    </ItemGroup>
-
-    <ItemGroup>
+      <PackageReference Include="FLite.Core" Version="0.1.0" />
       <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
     </ItemGroup>
 

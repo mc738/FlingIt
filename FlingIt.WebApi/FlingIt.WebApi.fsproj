@@ -16,10 +16,8 @@
     <ItemGroup>
       <ProjectReference Include="..\..\FAuth\FAuth.Extensions\FAuth.Extensions.fsproj" />
       <ProjectReference Include="..\..\FAuth\FAuth\FAuth.fsproj" />
-      <ProjectReference Include="..\..\FLite\FLite.Core\FLite.Core.fsproj" />
       <ProjectReference Include="..\..\Peeps\Peeps\Peeps.fsproj" />
       <ProjectReference Include="..\FlingIt.Core\FlingIt.Core.fsproj" />
-      <ProjectReference Include="..\FlingIt.WebApp\FlingIt.WebApp.csproj" />
     </ItemGroup>
 
     <ItemGroup>
