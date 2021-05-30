@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Routes\Utils.fs" />
+        <Compile Include="Routes\Test.fs" />
+        <Compile Include="Routes\Messaging.fs" />
+        <Compile Include="App.fs" />
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\FAuth\FAuth.Extensions\FAuth.Extensions.fsproj" />
+      <ProjectReference Include="..\..\FAuth\FAuth\FAuth.fsproj" />
+      <ProjectReference Include="..\..\FLite\FLite.Core\FLite.Core.fsproj" />
+      <ProjectReference Include="..\..\Peeps\Peeps\Peeps.fsproj" />
+      <ProjectReference Include="..\FlingIt.Core\FlingIt.Core.fsproj" />
+      <ProjectReference Include="..\FlingIt.WebApp\FlingIt.WebApp.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Giraffe" Version="5.0.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.6" />
+    </ItemGroup>
+
+</Project>
